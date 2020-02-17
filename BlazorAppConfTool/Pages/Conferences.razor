@@ -1,0 +1,25 @@
+﻿@page "/conferences"
+
+@using BlazorConfListPWA.Components
+@using BlazorConfListPWA.DTO
+
+<h3>Conferences</h3>
+
+<br />
+<br />
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>City</th>
+            <th>Website</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Conference conference in _conferences)
+        {
+            <ConferenceEntry CurrentConference="@conference"></ConferenceEntry>
+        }
+    </tbody>
+</table>

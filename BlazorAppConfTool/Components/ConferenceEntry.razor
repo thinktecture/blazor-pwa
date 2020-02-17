@@ -1,0 +1,12 @@
+﻿@using BlazorConfListPWA.DTO
+
+<tr>
+    <td>@CurrentConference.Title</td>
+    <td>@CurrentConference.City</td>
+    <td>@CurrentConference.Url</td>
+</tr>
+
+@code {
+    [Parameter]
+    public Conference CurrentConference { get; set; }
+}

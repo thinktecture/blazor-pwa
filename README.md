@@ -1,2 +1,2 @@
-# blazor-pwa
-Basic Blazor application running as a Progressive Web App (PWA)
+# Progressive Web Apps (PWA) with ASP.NET Core Blazor WebAssembly
+This is the demo application for the article "" at ...

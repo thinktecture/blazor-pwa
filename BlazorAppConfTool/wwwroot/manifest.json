@@ -1,0 +1,16 @@
+﻿{
+  "short_name": "ConfTool",
+  "name": "Conferences Tool",
+  "icons": [
+    {
+      "src": "icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/BlazorPWA/",
+  "background_color": "#1294e0",
+  "display": "standalone",
+  "scope": "/BlazorPWA/",
+  "theme_color": "#ff584f"
+}
